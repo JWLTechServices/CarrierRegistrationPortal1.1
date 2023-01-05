@@ -1,0 +1,5 @@
+taken ogingal jwl code back up.
+
+1. CAPTCHA has to fix.
+2. Email validation in server side.
+3. if email password expire then throwing the 
