@@ -625,6 +625,7 @@
             //  alert("document is ready");
             $("#Token").val('');
             $("#hdnSiteKey").val('@recaptcha.Value.SiteKey');
+        // Commmented the bwlo as it istoken generation is impemented in submit button and verification server side
             @*grecaptcha.ready(function () {
                 grecaptcha.execute('@recaptcha.Value.SiteKey', { action: 'submit' }).then(function (token) {
                     //$.ajax({
